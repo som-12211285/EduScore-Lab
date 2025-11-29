@@ -1,4 +1,14 @@
-# **EduScoreLab**
+# <h1 align="center">EduScore Lab</h1>
+
+<!-- 🔽 Badges go here -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-blue" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img src="https://img.shields.io/badge/Release-v1.0.0-blue" />
+  <img src="https://img.shields.io/github/repo-size/som-12211285/EduScoreLab" />
+  <img src="https://img.shields.io/github/stars/som-12211285/EduScoreLab?style=social" />
+</p>
+
 
 A lightweight console-based Java application for calculating student grades, totals, and averages with clean logic and fast performance.
 
@@ -33,9 +43,13 @@ A lightweight console-based Java application for calculating student grades, tot
 
 ---
 
-## 📦 **Project Structure**
+## 📦 Project Structure
+
 ```
 EduScoreLab/
+│
+├── images/
+│   └── preview.png
 │
 ├── StudentGradeCalculator.java
 ├── README.md
@@ -79,6 +93,41 @@ Total Marks = 240
 Average Percentage = 80.00%
 Grade = A
 ```
+## 🚀 Future Improvements
+
+Here are some enhancements planned for future versions of EduScoreLab:
+
+- 🔹 **Add file export support**  
+  Save student results and class statistics to CSV or JSON files.
+
+- 🔹 **Add input validation**  
+  Handle invalid inputs (negative marks, non-numeric entries, empty fields).
+
+- 🔹 **Subject-wise analytics**  
+  Show highest, lowest, and average marks for each subject.
+
+- 🔹 **Add GPA calculation**  
+  Convert percentage to GPA based on common academic grading scales.
+
+- 🔹 **Menu-driven interface**  
+  Enable options like "Add student", "View report", "Calculate stats", etc.
+
+- 🔹 **Support for unlimited students/subjects**  
+  Dynamically handle any number of inputs without limits.
+
+- 🔹 **Error handling & robustness improvements**  
+  Better messaging for incorrect inputs or system errors.
+
+- 🔹 **Graphical User Interface (GUI)**  
+  Future upgrade using JavaFX or Swing for a visual version of the app.
+
+- 🔹 **Persistent storage**  
+  Store student data using files or databases for long-term tracking.
+
+- 🔹 **Generate detailed performance reports**  
+  Print formatted reports summarizing student progress.
+
+These improvements aim to make EduScoreLab more powerful, user-friendly, and scalable in future releases.
 
 ---
 
@@ -87,6 +136,14 @@ Contributions, issues, and feature requests are welcome!
 Feel free to fork this repository and submit pull requests.
 
 ---
+## 👤 Author
+
+**Somtirtha Chakraborty**  
+Java Developer & Student  
+
+- GitHub: [som-12211285](https://github.com/som-12211285)  
+- LinkedIn:[link](http://www.linkedin.com/in/somtirtha18)
+
 
 ## 📜 **License**
 This project is licensed under the MIT License.
